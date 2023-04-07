@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+     font-family: sans-serif;
+    color:black;
+    }
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    text-decoration:none;
+}
+/* when we hover over the text we want to do something */
+.nav a:hover{
+background-color:rgba(225,225,225,.3);
+}
+
+
+.main-nav{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    border-bottom: .5px solid rgba(225,225,225,.3)
+}
+.main-nav li{
+    padding:0 5% ;
+}
+
+header{
+    background-color: rgba(0,0,0,.8);
+    background: url("header.jpg");
+    background-blend-mode:multiply;
+    background-size:cover;
+    padding-bottom:30px;
+    background-position:center;
+    background-repeat: no-repeat;
+    /* object-fit: contain; */
+}
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight:bold;
+    color:midnightblue;
+
+} 
+.band-name-large{
+font-size: 8rem ;
+}
+
+.content-section{
+    margin: 1rem;
+}
+.container{
+    max-width:900px;
+    margin:0 auto;
+    padding:0 1.5em ;
+} 
+.section-header{
+    text-align: center;
+    /* font-family:'Dancing Script', cursive; */
+    font-family: 'Crimson Text', serif;
+    font-weight:bold;
+    color: black;
+    font-size: 2rem;
+}
+
+.album{
+    font-family: 'Crimson Text', serif;
+    color: black;
+    font-size:1.5rem;
+}
+
+.about-band-images{
+    
+    object-fit:cover;
+    height: 200px;
+    width: 200px;
+    float: left; 
+    margin: 15px;
+    border-radius:100%; 
+}
+/* ******************** */
+.band-name-1{
+    color: white;
+    font-family:'Dancing Script', cursive;
+    font-size: 2rem;
+    /* margin-left:1em; */
+}
+
+.main-footer{
+    /* background-color: darkgray;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    bottom:0; */
+    position: relative;
+    width: 100%;
+    background:palevioletred;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 80px;
+    padding: 0px 0px ;
+    margin-bottom: 0px;
+    
+}
+.main-footer-container{
+    flex-grow:1;
+
+    text-align: start;
+}
+
+.n-ul li{
+    display:inline ;
+    }
+/* .n-ul a{
+    display:inline;
+} */
+.n-ul li a{
+    /* display:inline-block;
+    padding: 0.5rem;
+    color: white; */
+    font-size: 2em;
+    /* color: #ddd; */
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.footer-nav-img{
+    width: 20px;
+    height: 20px;
+
+}
+.img-ul{
+    object-position: right;
+
+}
+
+.n-ul a:hover{
+    background-color:rgba(225,225,225,.3);
+    }
+
+    .btn{
+        text-align: center;
+        vertical-align: middle;
+        padding: .5em;
+        cursor:pointer;
+        color: black;
+    }
+    .btn-header{
+        margin: 0.5em 15% 2em 15%;
+        color: white;
+        border:2px solid blueviolet;
+        background-color: rgba(225,225,225,.1);
+        border-radius:0;
+        font-size: 1.5em;
+        font-weight:lighter ;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+.btn-header:hover{
+  background-color: rgba(225,225,225,.3);
+    }
+    
+.btn-play{
+        margin: 0 auto;
+        display:block;
+        color:rgb(255, 225, 30);
+        font-size: 4 rem;
+        border-radius:100% ;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+    } 
+
+.tour-row{
+border-bottom: 1px solid black ;
+padding-bottom: 1em;
+margin-bottom: 1em;
+border-right: 2px;
+    }
+.tour-row:last-child{
+      border-bottom: none;
+}
+
+ .tour-item{
+    display: inline-block;
+    padding-right: 0.5em ;
+   
+ }  
+  .tour-date{
+    color: darkblue;
+    font-weight: bold;
+    width: 20%
+  }
+  .tour-city{
+    color: indianred;
+    width: 50%;
+  }
+
+  .tour-btn{
+    max-width:21%;
+  }
+  .btn-primary{
+    color: white;
+    background-color:rgb(105, 132, 58) ;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+  }
+  .btn-primary:hover{
+    background-color: rgb(1, 122, 1);
+  }
+
+  .shop-item{
+    margin:20px;
+  }
+
+  .shop-item-album{
+    display:block;
+    width: 100%;
+    text-align:center;
+    font-weight: bold;
+    font-size:1.5em;
+    color:black;
+    margin-bottom:10px;
+    font-family: 'Crimson Text', serif;
+  }
+
+  .shop-item-images{
+    object-fit:cover;
+    height: 200px;
+    width: 200px; 
+  }
+  .shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  .shop-item-price{
+    flex-grow:1;
+    color:midnightblue;
+
+  }
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font: bold;
+    font-size: 1.25em;
+    color: black;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid black ;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.cart-row{  
+    display: flex;
+}
+.cart-item{
+    width: 50%;
+}
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+    color: darkblue;
+
+}
+.cart-quantity{
+    width: 30%;
+}
+.cart-item-title{
+    color:darkblue;
+    margin-left:1em;
+    font-size: 1.2em;
+}
+.cart-item-image{
+    width: 70px;
+    height:auto;
+    border-radius: 10px;
+}
+.btn-danger{
+    color:white;
+    background-color: red;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: rgb(215, 7, 7);
+  }
+  .cart-quantity-input{
+    height: 34px;
+    width: 75px;
+    margin-right:0.5em;
+    border-radius: 10px;
+    border-width: thin;
+    padding: 0px;
+    text-align: center;
+    color: black;
+    font-size: 0.8;
+  }
+
+  .cart-row:last-child{
+    border-bottom: 1px solid  black;
+  }
+
+  .cart-row:last-child .cart-column{
+    border: none;
+  }
+
+  .cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .cart-total-title{
+   font-weight: bold;
+   font-size:1.5em;
+   color: black;
+   margin-right:20px;
+ }
+.cart-total-price{ 
+    color: black;  
+    font-size: 1em;
+}
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px;
+    font-size: 1.25em;
+}
